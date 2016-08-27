@@ -1,4 +1,17 @@
 device_tracker.android6c904926436850fd:
-    friendly_name: Michael
+  friendly_name: Michael
+
 device_tracker.android883c377e61cefd4f:
-    friendly_name: Erin
+  friendly_name: Erin
+
+sensor.weather_current:
+  friendly_name: Current
+
+sensor.weather_temperature:
+  friendly_name: Low
+
+sensor.weather_temperature_2:
+  friendly_name: High
+
+sensor.weather_temperature_3:
+  friendly_name: current

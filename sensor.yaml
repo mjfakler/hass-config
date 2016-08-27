@@ -1,12 +1,7 @@
 - platform: yweather
   woeid: !secret yweather_woeid
   monitored_conditions:
-   - weather
    - weather_current
    - temp_min
    - temp_max
-   - wind_speed
-   - pressure
-   - visibility
-   - humidity
    - temperature
