@@ -1,0 +1,60 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret latitude
+  longitude: !secret longitude
+  # Impacts weather/sunrise data
+  elevation: 258
+  # metric for Metric, imperial for Imperial
+  unit_system: imperial
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Chicago
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+introduction:
+
+# Enables the frontend
+frontend:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  api_password: !secret api_password
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+sun:
+
+# Weather Prediction
+sensor:
+
+device_tracker:
+  platform: tomato
+  host: 192.168.1.1
+  username: !secret tomato_username
+  password: !secret tomato_password
+  http_id: !secret tomato_http_id
+  track_new_devices: no
+
+notify: 
+  platform: joaoapps_join
+  device_id: !secret join_device_id_michael
+  name: michael_nexus5x
+  api_key: !secret join_api_key_michael
+
+# automation: !include automation.yaml

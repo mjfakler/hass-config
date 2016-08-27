@@ -1,0 +1,56 @@
+
+bigblue:
+  name: bigblue
+  mac: 10:BF:48:FB:CB:EF
+  picture: 
+  track: no
+  hide_if_away: no
+
+android6c904926436850fd:
+  name: android-6c904926436850fd
+  mac: 64:BC:0C:50:FD:6E
+  picture: 
+  track: yes
+  hide_if_away: no
+
+erinhp:
+  name: Erin-HP
+  mac: D8:5D:E2:A4:AC:01
+  picture: 
+  track: 
+  hide_if_away: no
+
+android883c377e61cefd4f:
+  name: android-883c377e61cefd4f
+  mac: 64:BC:0C:43:D9:1A
+  picture: 
+  track: yes
+  hide_if_away: no
+
+chromecast:
+  name: Chromecast
+  mac: A4:77:33:F4:A9:F4
+  picture: 
+  track: no
+  hide_if_away: no
+
+android9823764ee78bb679:
+  name: android-9823764ee78bb679
+  mac: F0:79:59:20:9B:F5
+  picture: 
+  track: no
+  hide_if_away: no
+
+98f1707f2566:
+  name: 98f1707f2566
+  mac: 98:F1:70:7F:25:66
+  picture: 
+  track: no
+  hide_if_away: no
+
+chromecast_2:
+  name: Chromecast
+  mac: 6C:AD:F8:5C:25:D7
+  picture: 
+  track: no
+  hide_if_away: no
