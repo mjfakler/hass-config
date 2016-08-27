@@ -1,7 +1,5 @@
 - platform: yweather
   woeid: !secret yweather_woeid
-  forecast: 3
-  name: "Home Weather"
   monitored_conditions:
    - weather
    - weather_current
