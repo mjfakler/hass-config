@@ -17,3 +17,10 @@ media_players:
   name: "Media Players"
   entities:
     - media_player.my_nexus_player
+
+family:
+  view: yes
+  name: "Family"
+  entities:
+    - group.michael
+    - group.erin
