@@ -4,5 +4,4 @@ join_notify:
       data:
         title: "Home Assistant"
         message: "Yup, still works"
-        icon: "https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png"
-        smallicon: "https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"
+        {"icon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png","smallicon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"}
