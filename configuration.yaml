@@ -60,3 +60,5 @@ media_player:
   platform: plex
 
 group: !include group.yaml
+
+script: !include_dir_merge_list script
