@@ -3,6 +3,6 @@
     - platform: state
       entity_id: group.all_devices
   action:
-    service: script.join_notify
+    service: script.turn_on
     data:
-      notification_message: "Let's try this again"
+      {"entity_id":"script.join_notify","variables": {"message": "Did this one work?","name": "Paulus"}}
