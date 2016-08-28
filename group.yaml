@@ -6,12 +6,12 @@ living_room:
 michael:
   name: "Michael"
   entities:
-    - device_tracker.android6c904926436850fd
+    - device_tracker.michael
 
 erin:
   name: "Erin"
   entities:
-    - device_tracker.android883c377e61cefd4f
+    - device_tracker.erin
 
 media_players:
   name: "Media Players"
