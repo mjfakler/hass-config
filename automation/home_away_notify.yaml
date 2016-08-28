@@ -1,0 +1,11 @@
+- alias: "Home and away notification"
+  trigger:
+    - platform: state
+      entity_id: group.all_devices
+  action:
+    service: notify.michael_nexus5x
+      message: "It Works!"
+      title: "Home Assistant"
+      data:
+        icon: https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png
+        smallicon: https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png

@@ -14,4 +14,4 @@ sensor.weather_temperature_2:
   friendly_name: High
 
 sensor.weather_temperature_3:
-  friendly_name: current
+  friendly_name: Current

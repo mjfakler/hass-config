@@ -57,4 +57,4 @@ notify:
   name: michael_nexus5x
   api_key: !secret join_api_key_michael
 
-# automation: !include automation.yaml
+automation: !include_dir_merge_list automation
