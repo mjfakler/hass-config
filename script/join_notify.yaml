@@ -4,9 +4,9 @@ join_notify:
       data:
         title: "Home Assistant"
         message: >
-          {% if is_state('device_tracker.paulus', 'home') %}
-            Ha, Paulus is home!
+          {% if is_state('device_tracker.android883c377e61cefd4f', 'home') %}
+            Erin is home!
           {% else %}
-            Paulus is at {{ states('device_tracker.paulus')) }}.
+            Erin is at {{ states('device_tracker.android883c377e61cefd4f') }}.
           {% endif %}
         data: {"icon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png","smallicon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"}
