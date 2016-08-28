@@ -29,6 +29,7 @@ family:
 weather:
   name: "Weather"
   entities:
+    - sun.sun
     - sensor.weather_current
     - sensor.weather_temperature_2
     - sensor.weather_temperature
