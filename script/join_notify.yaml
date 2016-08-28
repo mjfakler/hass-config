@@ -1,5 +1,5 @@
 join_notify:
-  - sequence:
-      service: notify.michael_nexus5x
+  sequence:
+    - service: notify.michael_nexus5x
       data:
         {"message":"It Works!","title":"Home Assistant","data":{"icon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png","smallicon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"}}
