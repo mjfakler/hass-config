@@ -58,3 +58,6 @@ notify:
   api_key: !secret join_api_key_michael
 
 automation: !include_dir_merge_list automation
+
+media_player:
+  platform: plex
