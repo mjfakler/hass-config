@@ -12,9 +12,6 @@ homeassistant:
   time_zone: America/Chicago
   customize: !include customize.yaml
 
-# Show links to resources in log and frontend
-introduction:
-
 # Enables the frontend
 frontend:
 
