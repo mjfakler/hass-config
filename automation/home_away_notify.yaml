@@ -4,3 +4,5 @@
       entity_id: group.all_devices
   action:
     service: script.join_notify
+    data:
+      notification_message: "Let's try this again"
