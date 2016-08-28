@@ -5,6 +5,6 @@
   action:
     service: homeassistant.turn_on
     entity_id: script.join_notify
-    data:
-      variables:
-        message: 'This is a message'
+#    data:
+#      variables:
+#        message: 'This is a message'
