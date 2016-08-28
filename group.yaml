@@ -1,3 +1,10 @@
+default_view:
+  view: yes
+  entities:
+    - group.family
+    - group.weather
+
+
 #michael:
 #  name: "Michael"
 #  entities:
