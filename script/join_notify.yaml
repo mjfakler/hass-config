@@ -1,7 +1,8 @@
 join_notify:
   sequence:
     - service: notify.michael_nexus5x
-      title: "Home Assistant"
-      message: "Yup, still works"
       data:
-        {"icon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png","smallicon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"}
+        title: "Home Assistant"
+        message: "Yup, still works"
+        icon: "https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png"
+        smallicon: "https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"
