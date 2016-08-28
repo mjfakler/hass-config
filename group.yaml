@@ -29,5 +29,5 @@ weather:
   entities:
     - sensor.weather_current
     - sensor.weather_temperature
-    - sensor.weather_temperature2
-    - sensor.weather_temperature3
+    - sensor.weather_temperature_2
+    - sensor.weather_temperature_3
