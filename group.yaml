@@ -19,8 +19,7 @@ media_players:
     - media_player.my_nexus_player
 
 family:
-  view: yes
   name: "Family"
   entities:
-    - group.michael
-    - group.erin
+    - device_tracker.android6c904926436850fd
+    - device_tracker.android883c377e61cefd4f
