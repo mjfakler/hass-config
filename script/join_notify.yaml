@@ -3,10 +3,6 @@ join_notify:
     - service: notify.michael_nexus5x
       data:
         title: "Home Assistant"
-        message: >
-          {% if is_state('device_tracker.android883c377e61cefd4f', 'home') %}
-            {{ value_json.message }} is home!
-          {% else %}
-            {{ value_json.message }} is at {{ states('device_tracker.android883c377e61cefd4f') }}.
-          {% endif %}
+        message:
+          data_template: {{ message }}
         data: {"icon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png","smallicon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"}
