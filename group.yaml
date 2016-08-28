@@ -2,16 +2,18 @@ living_room:
   name: "Living Room"
   entities:
     - media_player.my_nexus_player
-
-michael:
-  name: "Michael"
-  entities:
-    - device_tracker.android6c904926436850fd
-
-erin:
-  name: "Erin"
-  entities:
-    - device_tracker.android883c377e61cefd4f
+    - media_player.living_room
+    - media_player.nexus_player
+#
+#michael:
+#  name: "Michael"
+#  entities:
+#    - device_tracker.android6c904926436850fd
+#
+#erin:
+#  name: "Erin"
+#  entities:
+#    - device_tracker.android883c377e61cefd4f
 
 media_players:
   name: "Media Players"
@@ -28,6 +30,6 @@ weather:
   name: "Weather"
   entities:
     - sensor.weather_current
-    - sensor.weather_temperature
     - sensor.weather_temperature_2
+    - sensor.weather_temperature
     - sensor.weather_temperature_3
