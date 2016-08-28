@@ -3,6 +3,6 @@ join_notify:
     - service: notify.michael_nexus5x
       data:
         title: "Home Assistant"
-        message: This is a {{ variables.message }}
+        message: This is a {{ not_message }}
         data:
           {"icon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png","smallicon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"}
