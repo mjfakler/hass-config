@@ -1,8 +1,10 @@
 join_notify:
   sequence:
     - service: notify.michael_nexus5x
-      data:
-        title: "Home Assistant"
-        message: >
-          {{ notification_message }} is home
+      data_template:
+        message: "{{ notification_message }}"
+#      data:
+#        title: "Home Assistant"
+#        message: >
+#          {{ notification_message }} is home
 #        data: {"icon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png","smallicon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"}
