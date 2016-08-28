@@ -23,3 +23,11 @@ family:
   entities:
     - device_tracker.android6c904926436850fd
     - device_tracker.android883c377e61cefd4f
+
+weather:
+  name: "Weather"
+  entities:
+    - sensor.weather_current
+    - sensor.weather_temperature
+    - sensor.weather_temperature2
+    - sensor.weather_temperature3
