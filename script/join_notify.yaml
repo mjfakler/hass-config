@@ -1,7 +1,7 @@
 join_notify:
   sequence:
     - service: notify.michael_nexus5x
-      data:
+      data_template:
         title: "Home Assistant"
         message: "This is a message"
         data:
