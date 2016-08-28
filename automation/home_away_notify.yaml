@@ -4,7 +4,7 @@
       entity_id: group.all_devices
   action:
     service: homeassistant.turn_on
-      entity_id: script.join_notify
-      data:
-        variables:
-          message: 'This is a message'
+    entity_id: script.join_notify
+    data:
+      variables:
+        message: 'This is a message'
