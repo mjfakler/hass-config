@@ -5,8 +5,8 @@ join_notify:
         title: "Home Assistant"
         message: >
           {% if is_state('device_tracker.android883c377e61cefd4f', 'home') %}
-            {{ value }} is home!
+            {{ value_json.message }} is home!
           {% else %}
-            {{ value }} is at {{ states('device_tracker.android883c377e61cefd4f') }}.
+            {{ value_json.message }} is at {{ states('device_tracker.android883c377e61cefd4f') }}.
           {% endif %}
         data: {"icon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/icons/favicon-512x512.png","smallicon":"https://raw.githubusercontent.com/home-assistant/home-assistant/dev/homeassistant/components/frontend/www_static/images/notification-badge.png"}
