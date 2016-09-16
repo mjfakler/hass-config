@@ -4,7 +4,7 @@ device_tracker.android6c904926436850fd:
 device_tracker.android883c377e61cefd4f:
   friendly_name: Erin
 
-ssensor.pws_weather:
+sensor.pws_weather:
   friendly_name: Current
 
 sensor.pws_temp_f:
