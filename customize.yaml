@@ -4,14 +4,17 @@ device_tracker.android6c904926436850fd:
 device_tracker.android883c377e61cefd4f:
   friendly_name: Erin
 
-sensor.weather_current:
+ssensor.pws_weather:
   friendly_name: Current
 
-sensor.weather_temperature:
-  friendly_name: Low
+sensor.pws_temp_f:
+  friendly_name: Temperature
 
-sensor.weather_temperature_2:
-  friendly_name: High
+sensor.pws_feelslike_string:
+  friendly_name: Feels Like
 
-sensor.weather_temperature_3:
-  friendly_name: Current
+sensor.pws_precip_today_string:
+  friendly_name: Precipitation
+
+sensor.pws_wind_string:
+  friendly_name: Wind
