@@ -33,7 +33,8 @@ weather:
   name: "Weather"
   entities:
     - sun.sun
-    - sensor.weather_current
-    - sensor.weather_temperature_2
-    - sensor.weather_temperature
-    - sensor.weather_temperature_3
+    - sensor.pws_weather
+    - sensor.pws_feelslike_string
+    - sensor.pws_temp_f
+    - sensor.pws_precip_today_string
+    - sensor.pws_wind_string
