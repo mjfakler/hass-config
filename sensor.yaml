@@ -1,7 +1,8 @@
-- platform: yweather
-  woeid: !secret yweather_woeid
+- platform: wunderground
+  api_key: !secret wunderground_api_key
   monitored_conditions:
-   - weather_current
-   - temp_min
-   - temp_max
-   - temperature
+   - weather
+   - temp_f
+   - feelslike_string
+   - wind_string
+   - precip_today_string
