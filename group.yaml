@@ -1,8 +1,8 @@
-default_view:
-  view: yes
-  entities:
-    - group.family
-    - group.weather
+#default_view:
+#  view: yes
+#  entities:
+#    - group.family
+#    - group.weather
 
 
 #michael:
