@@ -51,7 +51,7 @@ device_tracker:
 automation: !include_dir_merge_list automation
 
 media_player:
-  - platform: plex
+  platform: plex
 
 group: !include group.yaml
 
