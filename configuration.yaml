@@ -48,7 +48,7 @@ device_tracker:
   http_id: !secret tomato_http_id
   track_new_devices: no
 
-automation: !include_dir_merge_list automation
+#automation: !include_dir_merge_list automation
 
 media_player:
   platform: plex
@@ -57,4 +57,4 @@ group: !include group.yaml
 
 script: !include_dir_merge_named script/
 
-notify: !include notify.yaml
+#notify: !include notify.yaml
