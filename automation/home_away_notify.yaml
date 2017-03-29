@@ -1,4 +1,4 @@
-- alias: "Home and away notification"
+- alias: "Erin is home"
   trigger:
   - platform: state
     entity_id: device_tracker.android883c377e61cefd4f
@@ -7,3 +7,13 @@
       data:
         title: "Home Assistant"
         message: "Erin is home!"
+
+- alias: "Michael state change"
+    trigger:
+      - platform: state
+        entity_id: device_tracker.android960d74515cf6c44a
+    action:
+      - service: notify.telegram_group
+        data_template:
+          title: "Home Assistant"
+          message: "Michael is {{ states('device_tracker.android960d74515cf6c44a') }}."
