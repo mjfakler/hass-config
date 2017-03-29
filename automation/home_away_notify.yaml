@@ -6,4 +6,4 @@
       service: notify.telegram_group
       data:
         title: "Home Assistant"
-        message: "Erin is {{ states('device_tracker.android883c377e61cefd4f') }}."
+        message: "Erin is home!"
