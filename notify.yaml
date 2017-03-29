@@ -1,4 +1,8 @@
-- name: html5_notification
-  platform: html5
-  gcm_api_key: !secret gcm_api_key
-  gcm_sender_id: !secret gcm_sender_id
+#- name: html5_notification
+#  platform: html5
+#  gcm_api_key: !secret gcm_api_key
+#  gcm_sender_id: !secret gcm_sender_id
+- name: telegram_notification
+  platform: telegram
+  api_key: !secret telegram_api_key
+  chat_id: !secret telegram_chat_id
