@@ -59,4 +59,4 @@ group: !include group.yaml
 
 script: !include_dir_merge_named script/
 
-#notify: !include notify.yaml
+notify: !include notify.yaml
