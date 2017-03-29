@@ -3,10 +3,7 @@
       - platform: state
         entity_id: device_tracker.android883c377e61cefd4f
     action:
-      service: notify.html5
-      data_template:
+      service: notify.telegram_group
+      data:
         title: "Home Assistant"
         message: "Erin is {{ states('device_tracker.android883c377e61cefd4f') }}."
-      data:
-        data:
-          tag: 'erin-away-notification'
