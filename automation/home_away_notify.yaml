@@ -1,9 +1,9 @@
 - alias: "Home and away notification"
-    trigger:
-      - platform: state
-        entity_id: device_tracker.android883c377e61cefd4f
-    action:
-      service: notify.telegram_group
-      data:
-        title: "Home Assistant"
-        message: "Erin is home!"
+  trigger:
+  - platform: state
+    entity_id: device_tracker.android883c377e61cefd4f
+  action:
+    service: notify.telegram_group
+    data:
+      title: "Home Assistant"
+      message: "Erin is home!"
